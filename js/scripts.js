@@ -1,9 +1,7 @@
 // Business Logic
-function calculation(value1, value2, value3, value4, value5){
+function calculateresult (value1, value2, value3, value4, value5){
   return value1 + value2 + value3 + value4 + value5;
 };
-
-
 
 
 //User logic
@@ -20,15 +18,16 @@ $(document).ready(function(){
     const value3 = parseInt($("#question3").val());
     const value4 = parseInt($("#question4").val());
     const value5 = parseInt($("#question5").val());
-    const calcresult = calculation(value1, value2, value3, value4, value5);
+    const calcresult =  parseInt(calculateresult(value1, value2, value3, value4, value5));
+    console.log(calcresult);
     $(this).hide();
     $("#questionsPage").hide();
-    if (calcresult => 10){
+    if (calcresult > 6) {
       $("#javascriptPage").show();
-    } else if (calcresult <= 9 && calcresult > 4){
+    } else if (calcresult < 7 && calcresult > 3){
       $("#rubyPage").show();
     } else {
-      $("csharpPage").show();
+      $("#csharpPage").show();
     }
     $("#resultsPage").show();
     $("#finishButton").show();

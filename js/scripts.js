@@ -32,4 +32,7 @@ $(document).ready(function(){
     $("#resultsPage").show();
     $("#finishButton").show();
   })
+  $("#finishButton").on("click",function(){
+    location.reload();
   });
+});

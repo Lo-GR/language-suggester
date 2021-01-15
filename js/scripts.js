@@ -1,6 +1,16 @@
+
+
+
+
+
+//User logic
 $(document).ready(function(){
-  $("#nextButton").on("click",function(){
+
+  $("#startButton").on("click",function(){
     $(this).hide();
+    $("#question0").hide();
     $("#question1").show();
+    $("#nextButton").show();
+
   })
   });

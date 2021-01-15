@@ -21,9 +21,15 @@ $(document).ready(function(){
     const value4 = parseInt($("#question4").val());
     const value5 = parseInt($("#question5").val());
     const calcresult = calculation(value1, value2, value3, value4, value5);
-    $("#resultsPage").text(calcresult);
     $(this).hide();
     $("#questionsPage").hide();
+    if (calcresult => 10){
+      $("#javascriptPage").show();
+    } else if (calcresult <= 9 && calcresult > 4){
+      $("#rubyPage").show();
+    } else {
+      $("csharpPage").show();
+    }
     $("#resultsPage").show();
     $("#finishButton").show();
   })

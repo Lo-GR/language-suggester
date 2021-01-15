@@ -10,3 +10,12 @@
 #resultsPage {
   display: none;
 }
+#csharpPage{
+  display: none;
+}
+#rubyPage{
+  display: none;
+}
+#javascriptPage{
+  display: none;
+}

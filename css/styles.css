@@ -1,11 +1,12 @@
-#question1 {
+#questionsPage {
   display: none;
 }
-
-#nextButton{
+#resultsButton{
   display: none;
 }
-
-#resultsButton {
+#finishButton {
+  display: none;
+}
+#resultsPage {
   display: none;
 }

@@ -8,9 +8,14 @@ $(document).ready(function(){
 
   $("#startButton").on("click",function(){
     $(this).hide();
-    $("#question0").hide();
-    $("#question1").show();
-    $("#nextButton").show();
-
+    $("#startPage").hide();
+    $("#questionsPage").show();
+    $("#resultsButton").show();
+  })
+  $("#resultsButton").on("click",function(){
+    $(this).hide();
+    $("#questionsPage").hide();
+    $("#resultsPage").show();
+    $("#finishButton").show();
   })
   });

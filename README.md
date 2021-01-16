@@ -27,6 +27,12 @@ This web application will prompt the user to answer several questions regarding 
 ## _Known Bugs_
 * No known bugs at this time. Please contact a contributor to report any bugs found during use.
 
+## _Future Updates_
+* Images on results screens
+* More fleshed out results screens
+* Additional survey questions
+* User identification
+
 ## _License_
 
 [_MIT_](https://opensource.org/licenses/MIT)

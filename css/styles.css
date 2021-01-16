@@ -5,8 +5,11 @@ h3{
   text-align: center;
   margin-bottom: 20px;
 }
+h2{
+  margin-top: 10px;
+}
 .container{
-  margin-top: 5%;
+  margin-top: 10px;
   background-color: #CFFCFF;
   border-width: 2px;
   border-style: solid;
@@ -49,4 +52,11 @@ h3{
 }
 .emphasis {
   color: #E4572E;
+}
+.wikiDefinitions{
+  border-style:groove;
+  border-width: 2px;
+  border-color: black;
+  box-align: center;
+  padding: 10px;
 }

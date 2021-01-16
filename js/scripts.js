@@ -7,8 +7,8 @@ $(document).ready(function(){
   $("#startButton").on("click",function(){
     $(this).hide();
     $("#startPage").hide();
-    $("#questionsPage").show();
-    $("#resultsButton").show();
+    $("#questionsPage").fadeIn();
+    $("#resultsButton").fadeIn();
   })
   $("#resultsButton").on("click",function(){
     const value1 = parseInt($("#question1").val());
@@ -21,14 +21,13 @@ $(document).ready(function(){
     $(this).hide();
     $("#questionsPage").hide();
     if (calcresult > 6) {
-      $("#javascriptPage").show();
+      $("#javascriptPage").fadeIn();
     } else if (calcresult < 7 && calcresult > 3){
-      $("#rubyPage").show();
+      $("#rubyPage").fadeIn();
     } else {
-      $("#csharpPage").show();
+      $("#csharpPage").fadeIn();
     }
-    $("#resultsPage").show();
-    $("#finishButton").show();
+    $("#finishButton").fadeIn();
   })
   $("#finishButton").on("click",function(){
     location.reload();

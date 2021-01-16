@@ -1,11 +1,35 @@
+.container{
+  margin-top: 5%;
+  background-color: #CFFCFF;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #666B6A;
+  padding: 20px;
+  box-shadow: 1px 1px 4px 0px #00000042;
+}
+.container p{
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+}
+h3{
+  text-align: center;
+  margin-bottom: 20px;
+}
 #questionsPage {
   display: none;
 }
 #resultsButton{
   display: none;
+  margin: 15px;
+}
+#startButton{
+  margin: 15px;
 }
 #finishButton {
   display: none;
+  margin: 15px;
 }
 #resultsPage {
   display: none;

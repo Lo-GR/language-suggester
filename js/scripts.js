@@ -17,7 +17,6 @@ $(document).ready(function(){
     const value4 = parseInt($("#question4").val());
     const value5 = parseInt($("#question5").val());
     const calcresult =  parseInt(calculateResult(value1, value2, value3, value4, value5));
-    console.log(calcresult);
     $(this).hide();
     $("#questionsPage").hide();
     if (calcresult > 6) {
